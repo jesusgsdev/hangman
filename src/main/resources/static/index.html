@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script src="js.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h2>Hangman by JesusGSDev</h2>
+
+        <div id="userWelcome">
+            <h3></h3>
+        </div>
+
+        <div id="loginForm">
+            <h3>Login</h3>
+            <div class="form-group">
+                <label>Username :</label>
+                <input class="form-control" type="text" name="username" id="username">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" name="login" id="login">Login</button>
+            </div>
+        </div>
+        <div class="form-group" id="logoutForm">
+            <button class="btn btn-info" name="logout" id="logout">Logout</button>
+        </div>
+
+        <div class="form-group" id="startGame">
+            <button class="btn btn-success" name="start" id="start">Start/Continue Game</button>
+        </div>
+
+        <div id="gameView">
+            <h4>Game Status: <span id="status"></span></h4>
+            <h3>The Current Word is:  <span id="visibleWord"></span></h3>
+            <div class="alert alert-info" id="secretWord"></div>
+            <h4>You have <span id="attemptsLeft"></span> attempts left</h4>
+            <h4>Choose a letter to play:</h4>
+            <div id="availableCharacters"></div>
+        </div>
+
+
+        <div id="managerView">
+            <h1>Current Status</h1>
+            <table id="employeesTable" class="display">
+                <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Secret Word</th>
+                    <th>Visible Word</th>
+                    <th>Attempts left</th>
+                    <th>Game Status</th>
+                    <th>Game Started on</th>
+                    <th>Game Ended on</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>Username</th>
+                    <th>Secret Word</th>
+                    <th>Visible Word</th>
+                    <th>Attempts left</th>
+                    <th>Game Status</th>
+                    <th>Game Started on</th>
+                    <th>Game Ended on</th>
+                </tr>
+                </tfoot>
+            </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
