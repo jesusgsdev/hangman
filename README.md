@@ -1,4 +1,5 @@
-# hangman
+[![Build Status](https://travis-ci.org/jesusgsdev/hangman.svg?branch=master)](https://travis-ci.org/jesusgsdev/hangman)
+# Hangman
 A Hangman version on Browser and Spring Boot.
 
 ## Instructions
