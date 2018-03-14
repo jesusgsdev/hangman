@@ -22,5 +22,3 @@ If you use all your attempts and you didn't guess the word, then the original wo
 From the manager dashboard you will be able to see the current status of all the games (current ones and past ones) and you will be able to do filtering/searches, ordering by the different columns, etc.
 
 #### I used a TDD approach to achieve this project
-#### There are a total of 23 tests to ensure everything is working as expected
-#### The current code coverage is 91% on Classes and 76% on lines
