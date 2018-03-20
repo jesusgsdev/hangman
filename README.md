@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/jesusgsdev/hangman.svg?branch=master)](https://travis-ci.org/jesusgsdev/hangman)
 [![codecov](https://codecov.io/gh/jesusgsdev/hangman/branch/master/graph/badge.svg)](https://codecov.io/gh/jesusgsdev/hangman)
+[![BCH compliance](https://bettercodehub.com/edge/badge/jesusgsdev/hangman?branch=master)](https://bettercodehub.com/)
 # Hangman
 A Hangman version on Browser and Spring Boot.
 
